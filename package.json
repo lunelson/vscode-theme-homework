@@ -1,22 +1,31 @@
 {
-    "name": "vscode-theme-homework",
-    "publisher": "lunelson",
-    "displayName": "Homework",
-    "description": "Just tinkering, so far",
-    "version": "0.1.0",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Homework Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/homework-dark.json"
-            }
-        ]
-    }
+  "name": "vscode-theme-homework",
+  "publisher": "lunelson",
+  "displayName": "Homework",
+  "description": "Just tinkering, so far",
+  "repository": {
+    "url": "git+https://github.com/lunelson/vscode-theme-homework.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/lunelson/vscode-theme-homework#readme",
+  "bugs": {
+    "url": "https://github.com/lunelson/vscode-theme-homework/issues"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Homework Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/homework-dark.json"
+      }
+    ]
+  }
 }
