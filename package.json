@@ -1,0 +1,21 @@
+{
+    "name": "vscode-theme-homework",
+    "displayName": "Homework",
+    "description": "Endless tinkering",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Homework Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/homework-dark.json"
+            }
+        ]
+    }
+}
