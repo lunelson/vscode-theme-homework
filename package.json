@@ -2,7 +2,7 @@
     "name": "vscode-theme-homework",
     "displayName": "Homework",
     "description": "Just tinkering, so far",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.41.0"
     },
