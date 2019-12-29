@@ -1,7 +1,7 @@
 {
     "name": "vscode-theme-homework",
     "displayName": "Homework",
-    "description": "Endless tinkering",
+    "description": "Just tinkering, so far",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.41.0"
