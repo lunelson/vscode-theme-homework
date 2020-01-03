@@ -1,5 +1,7 @@
+.demos/**
 .scratch/**
 .vscode/**
-.vscode-test/**
 .gitignore
-vsc-extension-quickstart.md
+.gitignore
+.gitattributes
+.editorconfig

@@ -1,18 +1,27 @@
 {
   "name": "vscode-theme-homework",
-  "publisher": "lunelson",
-  "displayName": "Homework",
+  "version": "0.1.0",
   "description": "Just tinkering, so far",
-  "repository": {
-    "url": "git+https://github.com/lunelson/vscode-theme-homework.git",
-    "type": "git"
-  },
   "homepage": "https://github.com/lunelson/vscode-theme-homework#readme",
+  "keywords": [
+    "VSCode",
+    "Visual Studio Code",
+    "Theme",
+    "Dark Theme",
+    "Homework",
+    "Accessible Theme"
+  ],
   "bugs": {
     "url": "https://github.com/lunelson/vscode-theme-homework/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunelson/vscode-theme-homework.git"
+  },
   "license": "MIT",
-  "version": "0.1.0",
+  "scripts": {
+    "publish": "vsce publish"
+  },
   "engines": {
     "vscode": "^1.40.0"
   },
@@ -27,5 +36,17 @@
         "path": "./themes/homework-dark.json"
       }
     ]
+  },
+  "displayName": "Homework",
+  "galleryBanner": {
+    "color": "#2B2B2B",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "publisher": "lunelson",
+  "preview": true,
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "vsce": "^1.71.0"
   }
 }
